@@ -1,0 +1,11 @@
+[package]
+name = "oblivious_spacesaving"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Using the stable version you found earlier
+tfhe = { version = "1.4.3", features = ["boolean", "shortint", "integer"] }
+rand = "0.8"
+rayon = "1.10"
+indicatif = "0.17"

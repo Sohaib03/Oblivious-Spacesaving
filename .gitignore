@@ -1,0 +1,40 @@
+# Rust build output
+*/target/
+
+# Cargo lockfile
+# Keep this commented if this is an application/binary project.
+# Ignore it if this is a library and you want reproducible lockfile changes omitted.
+# Cargo.lock
+
+# Backup files
+**/*.rs.bk
+
+# Executables and binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Debug symbols / profiling artifacts
+*.pdb
+*.profraw
+*.profdata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log

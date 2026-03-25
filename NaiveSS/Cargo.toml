@@ -1,0 +1,11 @@
+[package]
+name = "NaiveSS"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tfhe = { version = "1.4.3", features = ["boolean", "shortint", "integer"] }
+rand = "0.8"
+rayon = "1.10"
+indicatif = "0.17"
+rand_distr = "0.4"
