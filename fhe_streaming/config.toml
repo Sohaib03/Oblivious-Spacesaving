@@ -1,0 +1,13 @@
+[system]
+num_workers = 4
+worker_threads = 32
+aggregator_threads = 64
+channel_buffer_size = 10
+
+[algorithm]
+table_size_k = 10
+flush_threshold = 250
+
+[simulation]
+stream_size = 2000
+zipf_exponent = 1.0

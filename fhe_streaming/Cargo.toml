@@ -1,0 +1,20 @@
+[package]
+name = "fhe_streaming"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Your specified versions
+tfhe = { version = "1.4.3", features = ["boolean", "shortint", "integer"] }
+rand = "0.8"
+rayon = "1.10"
+indicatif = "0.17"
+
+# Dependencies for the Distributed Pipeline & Logging
+crossbeam-channel = "0.5.11"
+rand_distr = "0.4.3"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8.10"
+log = "0.4.20"
+fern = "0.6.2"
+chrono = "0.4.34"
